@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Урок 1. Ответить, когда звонят</title>
+<link rel="stylesheet" href="../lesson.css">
+</head>
+<body>
+
+<!-- Значки трубок: форма по руководству Samsung, с. 71 -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="handset" viewBox="0 0 24 24">
+    <path fill="#fff" d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+  </symbol>
+  <symbol id="hangup" viewBox="0 0 24 24">
+    <path fill="#fff" d="M12 9c-1.6 0-3.15.25-4.6.72v3.1c0 .39-.23.74-.56.9-.98.49-1.87 1.12-2.66 1.85-.18.18-.43.28-.7.28-.28 0-.53-.11-.71-.29L.29 13.08c-.18-.17-.29-.42-.29-.7 0-.28.11-.53.29-.71C3.34 8.78 7.46 7 12 7s8.66 1.78 11.71 4.67c.18.18.29.43.29.71 0 .28-.11.53-.29.71l-2.48 2.48c-.18.18-.43.29-.71.29-.27 0-.52-.11-.7-.28-.79-.74-1.69-1.36-2.67-1.85-.33-.16-.56-.5-.56-.9v-3.1C15.15 9.25 13.6 9 12 9z"/>
+  </symbol>
+  <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="4" markerHeight="4" orient="auto">
+    <path d="M0 0 L10 5 L0 10 z" fill="#e8590c"/>
+  </marker>
+</svg>
+
+<!-- ===== Лист 1: ответить ===== -->
+<section class="sheet">
+  <p class="lesson-no">Урок 1</p>
+  <h1>Ответить, когда звонят</h1>
+
+  <p class="before"><b>До начала:</b> телефон включён (урок 0). Больше ничего не нужно —
+    когда вам позвонят, телефон сам зазвенит и сам зажжёт экран.</p>
+
+  <div class="words">
+    <h2>Новые слова</h2>
+    <div class="word">
+      <svg width="64" height="64" viewBox="0 0 64 64" aria-hidden="true">
+        <circle cx="32" cy="32" r="30" fill="#1f9d55"/>
+        <use href="#handset" x="14" y="14" width="36" height="36"/>
+      </svg>
+      <p><b>Зелёная трубка</b> — ответить. Как зелёная кнопка на кнопочном телефоне.</p>
+    </div>
+    <div class="word">
+      <svg width="64" height="64" viewBox="0 0 64 64" aria-hidden="true">
+        <circle cx="32" cy="32" r="30" fill="#d93025"/>
+        <use href="#hangup" x="14" y="14" width="36" height="36"/>
+      </svg>
+      <p><b>Красная трубка</b> — закончить разговор. Как красная кнопка на кнопочном.</p>
+    </div>
+    <div class="word">
+      <svg width="64" height="64" viewBox="0 0 64 64" aria-hidden="true">
+        <circle cx="14" cy="32" r="10" fill="#111"/>
+        <path d="M24 32 H54" stroke="#e8590c" stroke-width="6" marker-end="url(#arrow)"/>
+      </svg>
+      <p><b>Потянуть</b> — положить палец на кнопку и, не отрывая от экрана,
+        повести в сторону.</p>
+    </div>
+  </div>
+
+  <div class="steps-with-pic">
+    <div class="pic">
+      <svg width="200" height="340" viewBox="0 0 230 440" aria-hidden="true">
+        <rect x="20" y="10" width="190" height="410" rx="30" fill="#222"/>
+        <rect x="30" y="20" width="170" height="390" rx="22" fill="#2f3b45"/>
+        <circle cx="115" cy="38" r="6" fill="#111"/>
+        <text x="115" y="120" font-size="30" fill="#fff" text-anchor="middle">Женя</text>
+        <text x="115" y="150" font-size="15" fill="#c8d0d6" text-anchor="middle">мобильный</text>
+        <!-- зелёная слева, красная справа (руководство, с. 71) -->
+        <circle cx="70" cy="335" r="28" fill="#1f9d55"/>
+        <use href="#handset" x="54" y="319" width="32" height="32"/>
+        <circle cx="160" cy="335" r="28" fill="#d93025"/>
+        <use href="#hangup" x="144" y="319" width="32" height="32"/>
+        <circle cx="70" cy="335" r="38" fill="none" stroke="#e8590c" stroke-width="6"/>
+        <path d="M78 285 H122" stroke="#e8590c" stroke-width="7" marker-end="url(#arrow)"/>
+      </svg>
+    </div>
+    <ol class="steps">
+      <li><span class="do">Телефон звенит — посмотрите на экран.</span>
+        <span class="see">наверху — кто звонит. Внизу — зелёная трубка слева,
+          красная справа.</span></li>
+      <li><span class="do">Положите палец на зелёную трубку.</span></li>
+      <li><span class="do">Не отрывая пальца, потяните зелёную трубку вправо,
+          к середине экрана.</span> Потом отпустите палец.
+        <span class="see">звонок замолчал, на экране бегут секунды.</span></li>
+    </ol>
+  </div>
+
+</section>
+
+<!-- ===== Лист 2: поговорить и закончить ===== -->
+<section class="sheet">
+  <p class="lesson-no">Урок 1</p>
+  <div class="steps-with-pic">
+    <div class="pic">
+      <svg width="200" height="340" viewBox="0 0 230 440" aria-hidden="true">
+        <rect x="20" y="10" width="190" height="410" rx="30" fill="#222"/>
+        <rect x="30" y="20" width="170" height="390" rx="22" fill="#2f3b45"/>
+        <circle cx="115" cy="38" r="6" fill="#111"/>
+        <text x="115" y="110" font-size="30" fill="#fff" text-anchor="middle">Женя</text>
+        <text x="115" y="142" font-size="20" fill="#c8d0d6" text-anchor="middle">00:12</text>
+        <!-- прочие кнопки разговора — серые, не трогать -->
+        <g fill="#56636e">
+          <circle cx="70" cy="200" r="17"/><circle cx="115" cy="200" r="17"/><circle cx="160" cy="200" r="17"/>
+          <circle cx="70" cy="252" r="17"/><circle cx="115" cy="252" r="17"/><circle cx="160" cy="252" r="17"/>
+        </g>
+        <circle cx="115" cy="345" r="28" fill="#d93025"/>
+        <use href="#hangup" x="99" y="329" width="32" height="32"/>
+        <circle cx="115" cy="345" r="38" fill="none" stroke="#e8590c" stroke-width="6"/>
+      </svg>
+      <p class="pic-caption">серые кнопки<br>не трогать</p>
+    </div>
+    <ol class="steps" style="--start: 3">
+      <li><span class="do">Поднесите телефон к уху и говорите.</span>
+        <span class="see">экран погас. Так и надо, пока телефон у уха.</span></li>
+      <li><span class="do">Поговорили — отведите телефон от уха.</span>
+        <span class="see">экран загорелся, внизу красная трубка.</span></li>
+      <li><span class="do">Нажмите красную трубку.</span> Коротко, тянуть не надо.
+        <span class="see">разговор закончен.</span></li>
+    </ol>
+  </div>
+
+  <div class="trouble">
+    <h2>Если что-то пошло не так</h2>
+    <ul>
+      <li><b>Потянули, а телефон всё звенит</b> — палец оторвался раньше времени.
+        Положите палец на зелёную трубку снова и ведите, не отрывая.</li>
+      <li><b>Звонок оборвался</b> — не успели или задели красную трубку.
+        Ничего страшного: вам перезвонят.</li>
+      <li><b>Плохо слышно</b> — прижмите к уху верхний край телефона.</li>
+    </ul>
+    <p class="calm">Нажали не то — не страшно. Телефон от этого не сломается.</p>
+  </div>
+
+  <div class="finish">
+  <div class="practice">
+    <h2>Потренируйтесь</h2>
+    <p>Попросите Женю позвонить вам 3 раза подряд. Каждый раз ответьте,
+      скажите «алло» и закончите разговор красной трубкой.</p>
+  </div>
+
+  <div class="done">
+    <h2>Получилось, если…</h2>
+    <p>Вы сами ответили на звонок и сами закончили разговор — 3 раза в разные дни.</p>
+  </div>
+  </div>
+
+</section>
+
+</body>
+</html>

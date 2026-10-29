@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Урок 7. Набрать номер</title>
+<link rel="stylesheet" href="../lesson.css">
+</head>
+<body>
+
+<!-- Трубки (руководство, с. 71), кнопки внизу экрана (с. 17), кнопка «стереть» (гипотеза) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="handset" viewBox="0 0 24 24">
+    <path fill="#fff" d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+  </symbol>
+  <symbol id="erase" viewBox="0 0 40 28">
+    <path d="M12 2 H37 V26 H12 L2 14 Z" fill="none" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M19 9 L29 19 M29 9 L19 19" stroke="#111" stroke-width="3"/>
+  </symbol>
+  <symbol id="navbar" viewBox="0 0 170 40">
+    <rect width="170" height="40" fill="#111"/>
+    <g stroke="#ddd" stroke-width="3" fill="none">
+      <path d="M30 12 V28 M37 12 V28 M44 12 V28"/>
+      <rect x="74" y="11" width="22" height="18" rx="6"/>
+      <path d="M135 11 L126 20 L135 29"/>
+    </g>
+  </symbol>
+</svg>
+
+<!-- ===== Лист 1: открыть кнопки с цифрами ===== -->
+<section class="sheet">
+  <p class="lesson-no">Урок 7</p>
+  <h1>Набрать номер</h1>
+
+  <p class="before"><b>До начала:</b> вы прошли урок 3. Номер записан на бумажке.</p>
+
+  <div class="words">
+    <h2>Новые слова</h2>
+    <div class="word">
+      <svg width="64" height="64" viewBox="0 0 64 64" aria-hidden="true">
+        <rect x="12" y="12" width="40" height="40" rx="10" fill="#1f9d55"/>
+        <use href="#handset" x="20" y="20" width="24" height="24"/>
+      </svg>
+      <p><b>«Телефон»</b> — картинка с трубкой в нижней полосе.
+        В нём кнопки с цифрами.</p>
+    </div>
+    <div class="word">
+      <svg width="64" height="64" viewBox="0 0 64 64" aria-hidden="true">
+        <g font-size="15" font-weight="bold" fill="#111" text-anchor="middle">
+          <text x="14" y="18">1</text><text x="32" y="18">2</text><text x="50" y="18">3</text>
+          <text x="14" y="38">4</text><text x="32" y="38">5</text><text x="50" y="38">6</text>
+          <text x="14" y="58">7</text><text x="32" y="58">8</text><text x="50" y="58">9</text>
+        </g>
+      </svg>
+      <p><b>Кнопки с цифрами</b> — как на кнопочном телефоне. Нажали цифру —
+        она появилась наверху экрана.</p>
+    </div>
+    <div class="word">
+      <svg width="64" height="64" viewBox="0 0 64 64" aria-hidden="true">
+        <use href="#erase" x="8" y="18" width="48" height="34"/>
+      </svg>
+      <p><b>Стереть</b> — кнопка со стрелкой и крестиком.
+        Нажали — последняя цифра пропала.</p>
+    </div>
+  </div>
+
+  <div class="steps-with-pic">
+    <div class="pic">
+      <svg width="190" height="330" viewBox="0 0 230 440" aria-hidden="true">
+        <rect x="20" y="10" width="190" height="410" rx="30" fill="#222"/>
+        <rect x="30" y="20" width="170" height="390" rx="22" fill="#5b7a99"/>
+        <circle cx="115" cy="38" r="6" fill="#111"/>
+        <rect x="52" y="90" width="50" height="50" rx="12" fill="#f08c2e"/>
+        <text x="77" y="162" font-size="15" fill="#fff" text-anchor="middle">Контакты</text>
+        <rect x="128" y="90" width="50" height="50" rx="12" fill="#3b82d6"/>
+        <text x="153" y="162" font-size="15" fill="#fff" text-anchor="middle">Сообщения</text>
+        <circle cx="103" cy="292" r="4" fill="#c8d0d6"/><circle cx="115" cy="292" r="5" fill="#fff"/><circle cx="127" cy="292" r="4" fill="#c8d0d6"/>
+        <!-- нижняя полоса: «Телефон» слева (гипотеза — см. notes.md) -->
+        <rect x="40" y="306" width="150" height="46" rx="14" fill="#4a6683"/>
+        <rect x="50" y="314" width="30" height="30" rx="8" fill="#1f9d55"/>
+        <use href="#handset" x="56" y="320" width="18" height="18"/>
+        <rect x="86" y="314" width="30" height="30" rx="8" fill="#3b82d6"/>
+        <rect x="122" y="314" width="30" height="30" rx="8" fill="#7cc4f0"/>
+        <rect x="158" y="314" width="30" height="30" rx="8" fill="#9aa3ab"/>
+        <circle cx="65" cy="329" r="25" fill="none" stroke="#e8590c" stroke-width="6"/>
+        <use href="#navbar" x="30" y="364" width="170" height="40"/>
+      </svg>
+      <p class="pic-caption">«Телефон» —<br>в нижней полосе</p>
+    </div>
+    <ol class="steps">
+      <li><span class="do">Разбудите телефон и дойдите до главного экрана.</span>
+        <span class="see">главный экран.</span></li>
+      <li><span class="do">Найдите в нижней полосе картинку с трубкой и коротко
+          нажмите её.</span>
+        <span class="see">кнопки с цифрами, как на кнопочном телефоне.</span></li>
+      <li><span class="do">Кнопок с цифрами нет — нажмите внизу экрана
+          надпись «Клавиатура».</span>
+        <span class="see">кнопки с цифрами.</span></li>
+    </ol>
+  </div>
+</section>
+
+<!-- ===== Лист 2: набрать и позвонить ===== -->
+<section class="sheet">
+  <p class="lesson-no">Урок 7</p>
+  <div class="steps-with-pic">
+    <div class="pic">
+      <svg width="190" height="330" viewBox="0 0 230 440" aria-hidden="true">
+        <rect x="20" y="10" width="190" height="410" rx="30" fill="#222"/>
+        <rect x="30" y="20" width="170" height="390" rx="22" fill="#fff"/>
+        <circle cx="115" cy="38" r="6" fill="#111"/>
+        <text x="115" y="95" font-size="22" fill="#111" text-anchor="middle">8 9</text>
+        <g font-size="26" fill="#111" text-anchor="middle">
+          <text x="70" y="160">1</text><text x="115" y="160">2</text><text x="160" y="160">3</text>
+          <text x="70" y="205">4</text><text x="115" y="205">5</text><text x="160" y="205">6</text>
+          <text x="70" y="250">7</text><text x="115" y="250">8</text><text x="160" y="250">9</text>
+          <text x="70" y="295">*</text><text x="115" y="295">0</text><text x="160" y="295">#</text>
+        </g>
+        <circle cx="115" cy="345" r="26" fill="#1f9d55"/>
+        <use href="#handset" x="100" y="330" width="30" height="30"/>
+        <circle cx="115" cy="345" r="35" fill="none" stroke="#e8590c" stroke-width="6"/>
+        <use href="#erase" x="148" y="333" width="34" height="24"/>
+      </svg>
+      <p class="pic-caption">справа от трубки —<br>«стереть»</p>
+    </div>
+    <ol class="steps" style="--start: 3">
+      <li><span class="do">Коротко нажимайте цифры номера с бумажки, по одной.</span>
+        Не держите.
+        <span class="see">цифры появляются наверху экрана.</span></li>
+      <li><span class="do">Сверьте номер на экране с бумажкой.</span>
+        Ошибка — нажмите «стереть» и наберите цифру заново.</li>
+      <li><span class="do">Нажмите зелёную трубку под цифрами.</span>
+        <span class="see">гудки. Поднесите телефон к уху.</span></li>
+      <li><span class="do">Поговорили — нажмите красную трубку, потом «Домой».</span>
+        <span class="see">главный экран.</span></li>
+    </ol>
+  </div>
+
+  <div class="trouble">
+    <h2>Если что-то пошло не так</h2>
+    <ul>
+      <li><b>Набралась лишняя цифра</b> — нажмите «стереть».</li>
+      <li><b>Звонок пошёл не туда</b> — сразу нажмите красную трубку.</li>
+      <li><b>Кнопки с цифрами пропали</b> — нажмите «Домой» и начните сначала.</li>
+      <li><b>Занято или не отвечают</b> — красная трубка. Позвоните позже.</li>
+    </ul>
+    <p class="calm">Не знаете, где вы, — нажмите «Домой». Нажали не то — не страшно.</p>
+  </div>
+
+  <div class="finish">
+  <div class="practice">
+    <h2>Потренируйтесь</h2>
+    <p>Наберите номер Жени:</p>
+    <p style="font-size:24pt; font-weight:bold">8 ______________________</p>
+  </div>
+
+  <div class="done">
+    <h2>Получилось, если…</h2>
+    <p>Вы сами набрали номер с бумажки и дозвонились — 3 раза в разные дни.</p>
+  </div>
+  </div>
+</section>
+
+</body>
+</html>
